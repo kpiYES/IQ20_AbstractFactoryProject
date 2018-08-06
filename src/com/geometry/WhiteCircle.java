@@ -1,5 +1,10 @@
 package com.geometry;
 
-public class WhiteCircle {
+public class WhiteCircle extends Circle {
+
+    public WhiteCircle(double raidus) {
+        super(raidus);
+        setColor("White");
+    }
 
 }
