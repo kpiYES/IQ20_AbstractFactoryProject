@@ -3,7 +3,7 @@ package com;
 public class BlackFactory implements BaseFactory {
     @Override
     public Circle createCircle() {
-        return new Cirlce;
+        return new Circle;
     }
 
     @Override
